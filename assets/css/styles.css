@@ -3,21 +3,21 @@
   --bg-alt: #f5fcfb;
   --surface: rgba(255, 251, 245, 0.9);
   --surface-strong: #fffaf3;
-  --surface-dark: #0d2b2d;
-  --surface-dark-soft: #134446;
-  --line: rgba(15, 76, 78, 0.14);
-  --line-strong: rgba(15, 76, 78, 0.22);
+  --surface-dark: #03444A;
+  --surface-dark-soft: #05646b;
+  --line: rgba(3, 68, 74, 0.14);
+  --line-strong: rgba(3, 68, 74, 0.22);
   --ink: #1f1b18;
   --ink-soft: #62554a;
-  --wood: #169298;
-  --wood-deep: #0b6165;
-  --accent: #f28b1d;
-  --accent-strong: #d56a0e;
+  --wood: #00A8A8;
+  --wood-deep: #03444A;
+  --accent: #FF924D;
+  --accent-strong: #E66414;
   --accent-soft: #fff0dd;
-  --teal-soft: #dff4f3;
-  --shadow-lg: 0 28px 60px rgba(13, 55, 58, 0.14);
-  --shadow-md: 0 16px 32px rgba(13, 55, 58, 0.1);
-  --shadow-sm: 0 8px 20px rgba(13, 55, 58, 0.07);
+  --teal-soft: #9AD3DA;
+  --shadow-lg: 0 28px 60px rgba(3, 68, 74, 0.14);
+  --shadow-md: 0 16px 32px rgba(3, 68, 74, 0.1);
+  --shadow-sm: 0 8px 20px rgba(3, 68, 74, 0.07);
   --radius-lg: 28px;
   --radius-md: 20px;
   --radius-sm: 14px;
@@ -42,8 +42,8 @@ body {
   font-family: "Source Sans 3", sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at 18% 14%, rgba(22, 146, 152, 0.1), transparent 26%),
-    radial-gradient(circle at 85% 88%, rgba(242, 139, 29, 0.1), transparent 24%),
+    radial-gradient(circle at 18% 14%, rgba(0, 168, 168, 0.1), transparent 26%),
+    radial-gradient(circle at 85% 88%, rgba(255, 146, 77, 0.1), transparent 24%),
     linear-gradient(180deg, #fcfbf7 0%, #f2faf9 42%, #fff8ee 100%);
   line-height: 1.6;
 }
@@ -56,8 +56,8 @@ body::before {
   background:
     repeating-linear-gradient(
       135deg,
-      rgba(11, 97, 101, 0.018) 0,
-      rgba(11, 97, 101, 0.018) 2px,
+      rgba(3, 68, 74, 0.018) 0,
+      rgba(3, 68, 74, 0.018) 2px,
       transparent 2px,
       transparent 16px
     );
@@ -139,8 +139,8 @@ button {
 .section--wood {
   color: #f9f2e8;
   background:
-    radial-gradient(circle at top right, rgba(242, 139, 29, 0.18), transparent 24%),
-    linear-gradient(180deg, #115a5e 0%, #09393c 100%);
+    radial-gradient(circle at top right, rgba(255, 146, 77, 0.2), transparent 24%),
+    linear-gradient(180deg, #00A8A8 0%, #03444A 100%);
 }
 
 .eyebrow {
@@ -225,24 +225,24 @@ p {
 .button--primary {
   color: #fff;
   background: linear-gradient(135deg, var(--accent) 0%, var(--accent-strong) 100%);
-  box-shadow: 0 16px 30px rgba(213, 106, 14, 0.24);
+  box-shadow: 0 16px 30px rgba(230, 100, 20, 0.24);
 }
 
 .button--primary:hover,
 .button--primary:focus-visible {
-  background: linear-gradient(135deg, #ff9d34 0%, #e27411 100%);
+  background: linear-gradient(135deg, #ffab71 0%, #e66414 100%);
 }
 
 .button--secondary {
   color: var(--wood-deep);
-  background: rgba(223, 244, 243, 0.72);
-  border-color: rgba(11, 97, 101, 0.18);
+  background: rgba(154, 211, 218, 0.72);
+  border-color: rgba(3, 68, 74, 0.18);
 }
 
 .button--secondary:hover,
 .button--secondary:focus-visible {
   background: #eefbfa;
-  border-color: rgba(11, 97, 101, 0.34);
+  border-color: rgba(3, 68, 74, 0.34);
 }
 
 .site-header {
@@ -254,7 +254,7 @@ p {
 
 .topline {
   border-bottom: 1px solid rgba(255, 255, 255, 0.16);
-  background: linear-gradient(135deg, #f7a03a 0%, #ea7914 100%);
+  background: linear-gradient(135deg, #FF924D 0%, #E66414 100%);
   color: #173436;
 }
 
@@ -294,7 +294,7 @@ p {
   width: 0.35rem;
   height: 0.35rem;
   border-radius: 999px;
-  background: rgba(9, 57, 60, 0.92);
+  background: rgba(3, 68, 74, 0.92);
 }
 
 .nav-shell {
@@ -310,13 +310,13 @@ p {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, #f7a03a 0%, #ea7914 100%);
-  border-bottom: 1px solid rgba(213, 106, 14, 0.22);
+  background: linear-gradient(135deg, #FF924D 0%, #E66414 100%);
+  border-bottom: 1px solid rgba(230, 100, 20, 0.22);
   z-index: -1;
 }
 
 .site-header.is-scrolled::after {
-  box-shadow: 0 10px 30px rgba(167, 88, 18, 0.18);
+  box-shadow: 0 10px 30px rgba(230, 100, 20, 0.18);
 }
 
 .brand {
@@ -338,7 +338,7 @@ p {
   font-family: "Bitter", serif;
   font-size: 1.05rem;
   font-weight: 700;
-  box-shadow: 0 12px 24px rgba(11, 97, 101, 0.22);
+  box-shadow: 0 12px 24px rgba(3, 68, 74, 0.22);
 }
 
 .brand__text {
@@ -388,7 +388,7 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 24px;
   background: rgba(255, 246, 235, 0.98);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 20px 44px rgba(230, 100, 20, 0.15);
   opacity: 0;
   visibility: hidden;
   transform: translateY(-8px);
@@ -447,8 +447,8 @@ p {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 18% 26%, rgba(255, 186, 112, 0.12), transparent 24%),
-    linear-gradient(135deg, #0d5154 0%, #08373a 58%, #0b474a 100%);
+    radial-gradient(circle at 18% 26%, rgba(255, 146, 77, 0.14), transparent 24%),
+    linear-gradient(135deg, #00A8A8 0%, #056d74 28%, #03444A 100%);
   z-index: 0;
 }
 
@@ -459,7 +459,7 @@ p {
   height: min(26rem, 42vw);
   left: -10rem;
   top: 8rem;
-  background: radial-gradient(circle, rgba(242, 139, 29, 0.28) 0%, rgba(242, 139, 29, 0) 72%);
+  background: radial-gradient(circle, rgba(230, 100, 20, 0.26) 0%, rgba(230, 100, 20, 0) 72%);
   pointer-events: none;
   z-index: 0;
 }
@@ -493,12 +493,12 @@ p {
 }
 
 .hero .button--primary {
-  box-shadow: 0 18px 34px rgba(213, 106, 14, 0.28);
+  box-shadow: 0 18px 34px rgba(230, 100, 20, 0.28);
 }
 
 .hero .button--secondary {
   background: rgba(247, 251, 251, 0.96);
-  border-color: rgba(233, 248, 247, 0.18);
+  border-color: rgba(154, 211, 218, 0.3);
 }
 
 .hero .button--secondary:hover,
@@ -600,7 +600,7 @@ p {
   right: 1rem;
   padding: 0.45rem 0.75rem;
   border-radius: 999px;
-  background: rgba(9, 57, 60, 0.78);
+  background: rgba(3, 68, 74, 0.78);
   color: #fff;
   font-size: 0.82rem;
   font-weight: 700;
@@ -634,7 +634,7 @@ p {
   position: absolute;
   inset: auto 0 0 0;
   color: #fff;
-  background: linear-gradient(180deg, transparent, rgba(9, 57, 60, 0.9));
+  background: linear-gradient(180deg, transparent, rgba(3, 68, 74, 0.9));
 }
 
 .media-card img,
@@ -706,7 +706,7 @@ p {
   padding: 0.4rem 0.7rem;
   margin-bottom: 0.9rem;
   border-radius: 999px;
-  background: linear-gradient(135deg, #ffba71 0%, #f28b1d 100%);
+  background: linear-gradient(135deg, #FF924D 0%, #E66414 100%);
   color: #173436;
   font-family: "Bitter", serif;
   font-size: 1.1rem;
@@ -901,7 +901,7 @@ p {
   opacity: 1;
   transform: translateY(0) scale(1.08);
   filter: none;
-  border-color: rgba(11, 97, 101, 0.22);
+  border-color: rgba(3, 68, 74, 0.22);
   box-shadow: var(--shadow-md);
   z-index: 2;
 }
@@ -1001,7 +1001,7 @@ p {
   width: 3.15rem;
   height: 3.15rem;
   padding: 0;
-  border: 1px solid rgba(11, 97, 101, 0.18);
+  border: 1px solid rgba(3, 68, 74, 0.18);
   border-radius: 999px;
   background: rgba(255, 251, 245, 0.96);
   color: var(--wood-deep);

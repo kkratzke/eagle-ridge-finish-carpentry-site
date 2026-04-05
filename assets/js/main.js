@@ -1,4 +1,5 @@
-const { facebookUrl, galleryItems, projectHighlights, quoteEmail, services } = window.EagleRidgeSiteData;
+const { facebookUrl, galleryItems, projectHighlights, quoteEmailParts, services } = window.EagleRidgeSiteData;
+const quoteEmail = Array.isArray(quoteEmailParts) ? quoteEmailParts.join("@") : "";
 
 const servicesGrid = document.querySelector("[data-services-grid]");
 const featuredGrid = document.querySelector("[data-featured-grid]");
@@ -571,8 +572,8 @@ function setupQuoteForm() {
     const mailtoLink = `mailto:${quoteEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     formStatus.textContent = quoteEmail
-      ? "Opening your email app with the request filled in."
-      : "Opening a draft email with the recipient left blank for now.";
+      ? "Opening your email app with your quote request filled in."
+      : "Opening a draft email so your quote request is ready to send.";
 
     window.location.href = mailtoLink;
   });

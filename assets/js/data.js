@@ -1,6 +1,6 @@
 window.EagleRidgeSiteData = {
   facebookUrl: "https://www.facebook.com/p/Eagle-Ridge-Finish-Carpentry-LLC-61578360793137/",
-  quoteEmail: "markwax22@yahoo.com",
+  quoteEmailParts: ["markwax22", "yahoo.com"],
   services: [
   {
     title: "Interior trim installation",
