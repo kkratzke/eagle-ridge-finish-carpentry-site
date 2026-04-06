@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Eagle Ridge Finish Carpentry, LLC favicon">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00A8A8" />
-      <stop offset="100%" stop-color="#03444A" />
+      <stop offset="0%" stop-color="#667D70" />
+      <stop offset="100%" stop-color="#1F2723" />
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="14" fill="url(#bg)" />
-  <path d="M8 26c9-7 16-12 24-12 8 0 14 3 24 12" fill="none" stroke="#fff1df" stroke-linecap="round" stroke-width="4" />
-  <path d="M16 38h32" fill="none" stroke="#fff1df" stroke-linecap="round" stroke-width="4" />
-  <path d="M18 48h12M34 48h12" fill="none" stroke="#E66414" stroke-linecap="round" stroke-width="4" />
+  <path d="M8 26c9-7 16-12 24-12 8 0 14 3 24 12" fill="none" stroke="#F4F7F5" stroke-linecap="round" stroke-width="4" />
+  <path d="M16 38h32" fill="none" stroke="#F4F7F5" stroke-linecap="round" stroke-width="4" />
+  <path d="M18 48h12M34 48h12" fill="none" stroke="#93A79B" stroke-linecap="round" stroke-width="4" />
 </svg>
