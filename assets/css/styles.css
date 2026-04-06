@@ -733,6 +733,8 @@ p {
   width: 100%;
   text-align: left;
   appearance: none;
+  color: var(--ink);
+  border: 0;
 }
 
 .feature-card__image {
@@ -750,6 +752,14 @@ p {
   display: grid;
   gap: 0.7rem;
   padding: 1.3rem;
+}
+
+.feature-card__body h3 {
+  color: var(--ink);
+}
+
+.feature-card__body p {
+  color: var(--ink-soft);
 }
 
 .feature-card__label {
